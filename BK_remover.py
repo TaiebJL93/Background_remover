@@ -182,7 +182,7 @@ class BGRemove():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ckpt_image', type=str, default='./src/modnet_photographic_portrait_matting.ckpt',
+    parser.add_argument('--ckpt_image', type=str, default='./model/modnet_photographic_portrait_matting.ckpt',
                         required=False, help='Checkpoint path')
     parser.add_argument('--image', type=str, default='./data/sample_image/',
                         required=False, help='Inference image filename')
